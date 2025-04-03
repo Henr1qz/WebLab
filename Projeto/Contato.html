@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique T. Zotti</title>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Contato.html">Contato</a></li>
+                <li><a href="./Sobre.html">Sobre</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main>
+        <article>
+            <h1>Entre em contato</h1>
+            <form>
+                <fieldset>
+                    <legend>Cadastro</legend>
+                <label for="nome">Nome</label>
+                <input name="nome" placeholder="Digite o seu nome:" type="text" required autocomplete="on">
+                <br>                
+                <label for="email">Email</label>
+                <input type="email" name="email"placeholder="Digite seu email" required>
+                <br>
+                <label for="dtnasc">Data de nascimento</label>
+                <input type="date" name="dtnasc"placeholder="Aniversário">
+                <br>
+                <h4>Usuário</h4>
+                <label for="user">Usuário</label>
+                <input type="text" name="user" placeholder="Digite seu nome de usuário" required autocomplete="on">
+                <br>
+                <h4>Senha</h4>
+                <label for="senha">Senha</label> 
+                <input name="senha" type="password" placeholder="Digite sua senha" required>
+                
+            </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" placeholder="Logradouro" size="30">
+                <br><br>
+                <label for="número">Número</label>
+                <input type="text" name="número" placeholder="Número" size="6">
+                <label for="CEP">CEP</label>
+                <input type="text" name="CEP" placeholder="CEP" size="8" maxlength="8">
+                <br><br>
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" placeholder="Bairro" size="30">
+                <br><br>
+                <label for="cidade">Cidade</label>
+                <select name="cidade" required>
+                    <option>Passo Fundo</option>
+                    <option disabled>Carazinho</option>
+                    <option>Espumoso</option>
+                    <option>Ronda Alta</option>
+                </select>
+                
+                <br><br>
+                <label for="estado">Estado</label>
+                <select name="Estado">
+                    <option selected>RS</option>
+                    <option>MG</option>
+                    <option>RN</option>
+                    <option>PR</option>
+                    <option>SC</option>
+                    <option>AC</option>
+                    <option>TO</option>
+                </select>
+                <br><br>
+                <label for="pais">País</label>
+                <input type="text" name="pais" placeholder="País">
+            </fieldset>
+
+            <fieldset>
+                <legend>Diversos</legend>
+                <input type="color">
+                <br><br>
+
+                <p>Deseja receber propagandas?</p>
+                <input type="radio" id="sim"name="propaganda">
+                <label for="sim">Sim</label>
+                <input type="radio"id="não" name="propaganda">
+                <label for="não">Não</label>
+
+                <p>Você leu e concorda com os termos de uso do nossso site?</p>
+                <label for="termos">Sim</label>
+                <input type="checkbox" name="termos">
+
+
+
+            </fieldset>
+            <br><br>
+            
+            <input type="image" width="100px" src="./enviar.jfif">
+
+
+                <br><br>
+                
+            </form>
+        </article>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
